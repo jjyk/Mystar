@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="ru.jjyk.mystar.SecondActivity">
+
+    <item android:id="@+id/statusModule"
+        android:title="С"
+        android:icon="@drawable/gray"
+        app:showAsAction="always"/>
+    <item android:id="@+id/modeModule"
+        android:title="Р"
+        android:icon="@drawable/gray"
+        app:showAsAction="always" />
+    <item android:id="@+id/statusMilk"
+        android:title="О"
+        android:icon="@drawable/gray"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_exit"
+        android:title="Выход"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

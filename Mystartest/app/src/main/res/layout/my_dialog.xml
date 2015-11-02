@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:textSize="40sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/editTextWindowModule"
+            android:layout_marginTop="10dp"
+            android:inputType="phone"
+            android:maxLength="2"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <Button
+            android:background="#ff8378ff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ок"
+            android:textSize="40sp"
+            android:onClick="click1"
+            android:id="@+id/okDialogModule"
+            android:layout_marginLeft="100dp"/>
+
+
+        <Button
+            android:background="#ff8378ff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Отмена"
+            android:textSize="40sp"
+            android:id="@+id/cancellDialogModule"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="100dp"/>
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
